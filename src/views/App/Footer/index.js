@@ -1,4 +1,5 @@
 import React from 'react';
+import Timer from './timer'
 
 const Index = () => {
   return (
@@ -6,6 +7,7 @@ const Index = () => {
         <p className="Footer-title">
           GitHub REPO: <a href="https://github.com/InamTaj/react-workshop">InamTaj/react-workshop</a>
         </p>
+        <Timer />
       </footer>
   );
 };
